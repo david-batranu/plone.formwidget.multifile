@@ -6,9 +6,6 @@
     xmlns:zope="http://namespaces.zope.org/zope"
     i18n_domain="plone.formwidget.multifile">
 
-  <!-- Include our dependencies -->
-  <includeDependencies package="." />
-
   <adapter factory=".converter.MultiFileConverter" />
 
   <browser:page
